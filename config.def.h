@@ -87,7 +87,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_e,      spawn,          SHCMD("thunar") },
 	{ MODKEY,                       XK_b,      spawn,          SHCMD("rofi -show drun -show-icons -columns 2") },
 
-	{ 0, XF86XK_MicMute,		spawn,		SHCMD("pulseaudio-ctl mute-input") },
+	{ 0, XF86XK_AudioMicMute,	spawn,		SHCMD("pulseaudio-ctl mute-input") },
 	{ 0, XF86XK_AudioMute,		spawn,		SHCMD("pulseaudio-ctl mute") },
 	{ 0, XF86XK_AudioRaiseVolume,	spawn,		SHCMD("pulseaudio-ctl up 5") },
 	{ 0, XF86XK_AudioLowerVolume,	spawn,		SHCMD("pulseaudio-ctl down 5") },
