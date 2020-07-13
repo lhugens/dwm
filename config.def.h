@@ -86,6 +86,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("brave") },
 	{ MODKEY,                       XK_e,      spawn,          SHCMD("thunar") },
 	{ MODKEY,                       XK_b,      spawn,          SHCMD("rofi -show drun -show-icons -columns 2") },
+	{ MODKEY,                       XK_c,      spawn,          SHCMD("~/.scripts/dmenu-scripts") },
 
 	{ 0, XF86XK_AudioMicMute,	spawn,		SHCMD("pulseaudio-ctl mute-input") },
 	{ 0, XF86XK_AudioMute,		spawn,		SHCMD("pulseaudio-ctl mute") },
