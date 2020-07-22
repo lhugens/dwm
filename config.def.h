@@ -88,8 +88,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("/usr/lib/brave-bin/brave") },
 	{ MODKEY,                       XK_e,      spawn,          SHCMD("thunar") },
 	{ MODKEY,                       XK_b,      spawn,          SHCMD("rofi -show drun -show-icons -columns 2") },
-	{ MODKEY,                       XK_v,      spawn,          SHCMD("~/.scripts/dmenu-files") },
-	{ MODKEY,                       XK_c,      spawn,          SHCMD("~/.scripts/dmenu-scripts") },
+	{ MODKEY,                       XK_v,      spawn,          SHCMD("~/.scripts/dmenu/dmenu-files") },
+	{ MODKEY,                       XK_c,      spawn,          SHCMD("~/.scripts/dmenu/dmenu-scripts") },
 
 	{ 0, XF86XK_AudioMicMute,	spawn,		SHCMD("pulseaudio-ctl mute-input") },
 	{ 0, XF86XK_AudioMute,		spawn,		SHCMD("pulseaudio-ctl mute") },
